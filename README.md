@@ -10,7 +10,7 @@
 
 I am Not Owner of PteroStats, i have just modified its theme, and increased its security like i added env, so if you host the bot at a Public Online IDE, So people cant get your bot token or panel api key.
 
-![Real Repo Here](https://github.com/HirziDevs/PteroStats?style=flat-square) 
+[Real Repo Here](https://github.com/HirziDevs/PteroStats) 
 
 ## Introduction
 
