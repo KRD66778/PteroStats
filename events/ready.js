@@ -16,8 +16,8 @@ module.exports = client => {
   let ch = client.channels.cache.find(cn => cn.id === config.channel)
   let time = config.refreshtime
 
-  let hosturl = config.panel.url
-  let adminapikey = config.panel.adminkey
+  let hosturl = process.env.hosturl
+  let adminapikey = process.env.adminapikey
 
   let statusonline = config.status.online
   let statusoffline = config.status.offline
