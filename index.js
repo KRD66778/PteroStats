@@ -15,5 +15,5 @@ fs.readdir('./events/', (err, files) => {
     })
 })
 
-if (config.token === 'BOT TOKEN') console.log(chalk.blue('[PteroStats Checker] ') + chalk.red('Invalid Token, Check ') + chalk.green('config.yml') + chalk.red(' file to change token'))
-client.login(config.token)
+if (config.token === 'BOT TOKEN') console.log(chalk.blue('[PteroStats Checker] ') + chalk.red('Invalid Token, Check ') + chalk.green('your env ') + chalk.red('file to change token'))
+client.login(process.env.token)
