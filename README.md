@@ -1,9 +1,16 @@
-# PteroStats
+# Ptero Modified Stats ( A fork of HirziDevs-PteroStats )
+
 
 ![Version](https://img.shields.io/github/package-json/v/HirziDevs/PteroStats?style=flat-square)
 ![License](https://img.shields.io/github/license/HirziDevs/PteroStats?style=flat-square)
 
 ![PteroStats Banner](https://media.discordapp.net/attachments/796259732683227157/861126504246411264/20210704_130856.jpg)
+
+## INFO
+
+I am Not Owner of PteroStats, i have just modified its theme, and increased its security like i added env, so if you host the bot at a Public Online IDE, So people cant get your bot token or panel api key.
+
+![Real Repo Here](https://github.com/HirziDevs/PteroStats?style=flat-square) 
 
 ## Introduction
 
@@ -16,16 +23,8 @@ PteroStats is still **under development** and we welcome contributions.
 
 ### How it works?
 
-PteroStats checks [pterodactyl](https://pterodactyl.io) nodes wings with [axios](https://www.npmjs.com/package/axios) to get nodes wings status, if the api didn't reply that mean the node is having [wings/daemon](https://pterodactyl.io/wings/1.0/installing.html) down and mark the node as offline
+PteroStats checks [Pterodactyl](https://pterodactyl.io) nodes wings with [Axios](https://www.npmjs.com/package/axios) to get nodes wings status, if the api didn't reply that mean the node is having [Wings/Daemon](https://pterodactyl.io/wings/1.0/installing.html) down and mark the node as offline.
 
-### Screenshot
-
-- [**TreeCloud**](https://discord.gg/TCBhPan6SY)
-![TreeCloud PteroStats](https://media.discordapp.net/attachments/819757140155564062/880346867949518848/Screenshot_2021-08-26-14-03-15-50_572064f74bd5f9fa804b05334aa4f912.jpg)
-- [**ItzyStore**](https://discord.gg/PS4Mf6DBzt)
-![ItzyStore PteroStats](https://media.discordapp.net/attachments/796259732683227157/863359897210060820/IMG_20210710_164939.jpg)
-- [**SpaceCloud**](https://discord.gg/28z8CYmPEY)
-![SpaceCloud PteroStats](https://media.discordapp.net/attachments/586738538448420881/866624597171372032/IMG_20210719_171633.jpg)
 
 ## Installation
 
@@ -45,10 +44,9 @@ enable `read` on all options, if still didn't work enable `read & write` on all 
 You need to put right config to make the bot work at [config.yml](https://github.com/HirziDevs/PteroStats/blob/main/config.yml) file
 ```
 # PteroStats config
-# If you need help, join our discord server: https://discord.gg/zv6maQRah3
+# If you need help, join my discord server: https://discord.gg/4rQpVzpzX7
 
 # Bot Info's
-token: 'BOT TOKEN' # Put bot token here, check https://discord.dev to create and get bot token
 botstatus:
   enable: false # Enable Custom Status (MUST BE "true" OR "false")
   text: 'Hosting Panel' # Bot Status Message
@@ -56,12 +54,8 @@ botstatus:
 
 # Channel and RefreshTime Configuration
 channel: 'CHANNEL ID' # Put channel id here where the embed will be sended
-refreshtime: 60 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
+refreshtime: 10 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
 
-# Panel Info's
-panel:
-  url: 'HOST PANEL LINK' # Put panel url here. Example: https://panel.purenodes.net
-  adminkey: 'ADMIN APIKEY' # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
 
 # Embed Configuration
 embed: 
@@ -72,7 +66,7 @@ embed:
     text: 'EMBED DESCRIPTION' # Embed Description
   footer: 
     enable: true # Enable Embed Footer (MUST BE "true" OR "false")
-    text: 'By Hirzi#8701' # Embed Footer
+    text: 'Your host name' # Embed Footer
   timestamp: true # Enable Embed TimeStamp (MUST BE "true" OR "false")
 
 # Status Message Configuration
@@ -83,14 +77,14 @@ status:
 
 # Node Resource
 resource:
-  enable: false # Enable resource option ex [Ram: 2gb/5gb] bellow node name (MUST BE "true" OR "false")
+  enable: true # Enable resource option ex [Ram: 2gb/5gb] bellow node name (MUST BE "true" OR "false")
   servers: true # Enable Total server on the node to resource text (MUST BE "true" OR "false")
   allocations: true # Enable Total Allocation on the node to resource text (MUST BE "true" OR "false")
   location: true # Enable location short name on the node to resource text (MUST BE "true" OR "false")
   unit: 'gb' # Must be 'mb', 'gb', or 'percent'
 
 # Developers feature
-debug: false # Enable and Disable debug log to console
+debug: true # Enable and Disable debug log to console
 debugaxios: false #Enable and Disable axios error logs
 ```
 
@@ -101,24 +95,18 @@ Q: Can i use pterodactyl v0.7?
 
 A: No, the pterodactyl v0.7 is not supported
 
--
-
-Q: How much nodes can i add?
-
-A: The bot will automatically add nodes from your panel
-
--
 
 Q: How i can get support?
 
-A: You can join our [discord server](https://discord.gg/zv6maQRah3)
+A: You can join our [discord server](https://discord.gg/4rQpVzpzX7)
 
 ### Links
 
+* __[My Own Discord](https://discord.gg/4rQpVzpzX7)
 * __[PteroBot Discord](https://discord.gg/zv6maQRah3)__
 * __[Pterodactyl Panel](https://pterodactyl.io)__
 * __[Pterodactyl API](https://dashflo.net/docs/api/pterodactyl/v1)__
 
 ### Special Thanks to
 
-- ItsJustNickDev(from Discord)
+- Hirzi Devs and his Team
