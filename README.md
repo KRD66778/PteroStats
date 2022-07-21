@@ -102,7 +102,7 @@ A: You can join our [discord server](https://discord.gg/4rQpVzpzX7)
 
 ### Links
 
-* __[My Own Discord](https://discord.gg/4rQpVzpzX7)
+* __[My Own Discord](https://discord.gg/4rQpVzpzX7)__
 * __[PteroBot Discord](https://discord.gg/zv6maQRah3)__
 * __[Pterodactyl Panel](https://pterodactyl.io)__
 * __[Pterodactyl API](https://dashflo.net/docs/api/pterodactyl/v1)__
