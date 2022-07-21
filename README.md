@@ -6,9 +6,9 @@
 
 ![PteroStats Banner](https://media.discordapp.net/attachments/796259732683227157/861126504246411264/20210704_130856.jpg)
 
-## INFO
+## Info
 
-I am Not Owner of PteroStats, i have just modified its theme, and increased its security like i added env, so if you host the bot at a Public Online IDE, So people cant get your bot token or panel api key.
+I am Not Owner of PteroStats, i have just increased its security like i added env, so if you host the bot at a Public Online IDE, So people cant get your bot token or panel api key.
 
 [Real Repo Here](https://github.com/HirziDevs/PteroStats) 
 
