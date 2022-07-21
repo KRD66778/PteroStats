@@ -2,7 +2,6 @@
 # If you need help, join our discord server here: https://discord.gg/zv6maQRah3
 
 # Bot Info's
-token: 'BOT TOKEN' # Put bot token here, check https://discord.dev to create and get bot token
 botstatus:
   enable: false # Enable Custom Status (MUST BE "true" OR "false")
   text: 'Hosting Panel' # Bot Status Message
@@ -10,12 +9,7 @@ botstatus:
 
 # Channel and RefreshTime Configuration
 channel: 'CHANNEL ID' # Put channel id here where the embed will be sended
-refreshtime: 60 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
-
-# Panel Info's
-panel:
-  url: 'HOST PANEL LINK' # Put panel url here. Example: https://panel.purenodes.net
-  adminkey: 'ADMIN APIKEY' # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
+refreshtime: 10 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECOMMENDED MORE THAN 20 SECONDS)
 
 # Embed Configuration
 embed: 
@@ -26,7 +20,7 @@ embed:
     text: 'EMBED DESCRIPTION' # Embed Description
   footer: 
     enable: true # Enable Embed Footer (MUST BE "true" OR "false")
-    text: 'By Hirzi#8701' # Embed Footer
+    text: 'Your host name' # Embed Footer
   timestamp: true # Enable Embed TimeStamp (MUST BE "true" OR "false")
 
 # Status Message Configuration
@@ -44,5 +38,5 @@ resource:
   unit: 'gb' # Must be 'mb', 'gb', or 'percent'
 
 # Developers feature
-debug: false # Enable and Disable debug log to console
+debug: true # Enable and Disable debug log to console
 debugaxios: false #Enable and Disable axios error logs
